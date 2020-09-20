@@ -12,6 +12,9 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.EditorToolbar
+    - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -107,109 +110,109 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11922}
+      Script: {instanceID: 11996}
     - Class: 114
-      Script: {instanceID: 11924}
+      Script: {instanceID: 11998}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 11928}
+      Script: {instanceID: 12002}
     - Class: 114
-      Script: {instanceID: 11930}
+      Script: {instanceID: 12004}
     - Class: 114
-      Script: {instanceID: 11932}
+      Script: {instanceID: 12006}
     - Class: 114
-      Script: {instanceID: 11934}
+      Script: {instanceID: 12008}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 12072}
     - Class: 114
-      Script: {instanceID: 12226}
+      Script: {instanceID: 12202}
     - Class: 114
-      Script: {instanceID: 12254}
+      Script: {instanceID: 12228}
     - Class: 114
-      Script: {instanceID: 12444}
+      Script: {instanceID: 12358}
     - Class: 114
-      Script: {instanceID: 12498}
+      Script: {instanceID: 12394}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 12604}
     - Class: 114
-      Script: {instanceID: 13046}
+      Script: {instanceID: 12668}
     - Class: 114
-      Script: {instanceID: 13094}
+      Script: {instanceID: 12898}
     - Class: 114
-      Script: {instanceID: 13162}
+      Script: {instanceID: 13302}
     - Class: 114
-      Script: {instanceID: 13176}
+      Script: {instanceID: 13358}
     - Class: 114
-      Script: {instanceID: 13334}
+      Script: {instanceID: 13438}
     - Class: 114
-      Script: {instanceID: 13404}
+      Script: {instanceID: 13454}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 13622}
     - Class: 114
-      Script: {instanceID: 13532}
+      Script: {instanceID: 13710}
     - Class: 114
-      Script: {instanceID: 13730}
+      Script: {instanceID: 13778}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 13840}
     - Class: 114
-      Script: {instanceID: 13860}
+      Script: {instanceID: 14066}
     - Class: 114
-      Script: {instanceID: 13986}
+      Script: {instanceID: 14136}
     - Class: 114
-      Script: {instanceID: 14334}
+      Script: {instanceID: 14216}
     - Class: 114
-      Script: {instanceID: 14362}
+      Script: {instanceID: 14366}
     - Class: 114
-      Script: {instanceID: 14592}
-    - Class: 114
-      Script: {instanceID: 14710}
-    - Class: 114
-      Script: {instanceID: 14776}
+      Script: {instanceID: 14748}
     - Class: 114
       Script: {instanceID: 14780}
     - Class: 114
-      Script: {instanceID: 14796}
+      Script: {instanceID: 15054}
     - Class: 114
-      Script: {instanceID: 14806}
+      Script: {instanceID: 15192}
     - Class: 114
-      Script: {instanceID: 14936}
+      Script: {instanceID: 15274}
     - Class: 114
-      Script: {instanceID: 14972}
+      Script: {instanceID: 15280}
     - Class: 114
-      Script: {instanceID: 14982}
+      Script: {instanceID: 15298}
     - Class: 114
-      Script: {instanceID: 15164}
+      Script: {instanceID: 15310}
     - Class: 114
-      Script: {instanceID: 15230}
+      Script: {instanceID: 15426}
     - Class: 114
-      Script: {instanceID: 15344}
+      Script: {instanceID: 15460}
     - Class: 114
-      Script: {instanceID: 15420}
+      Script: {instanceID: 15502}
     - Class: 114
-      Script: {instanceID: 15692}
+      Script: {instanceID: 15512}
     - Class: 114
-      Script: {instanceID: 15746}
+      Script: {instanceID: 15714}
     - Class: 114
-      Script: {instanceID: 15896}
+      Script: {instanceID: 15792}
     - Class: 114
-      Script: {instanceID: 15944}
+      Script: {instanceID: 15920}
     - Class: 114
-      Script: {instanceID: 16164}
+      Script: {instanceID: 16014}
     - Class: 114
-      Script: {instanceID: 16168}
+      Script: {instanceID: 16340}
     - Class: 114
-      Script: {instanceID: 16236}
+      Script: {instanceID: 16396}
     - Class: 114
-      Script: {instanceID: 16386}
+      Script: {instanceID: 16574}
     - Class: 114
-      Script: {instanceID: 16394}
+      Script: {instanceID: 16630}
     - Class: 114
-      Script: {instanceID: 20066}
+      Script: {instanceID: 16884}
     - Class: 114
-      Script: {instanceID: 20858}
+      Script: {instanceID: 16890}
     - Class: 114
-      Script: {instanceID: 21494}
+      Script: {instanceID: 16970}
+    - Class: 114
+      Script: {instanceID: 17140}
+    - Class: 114
+      Script: {instanceID: 17148}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -273,6 +276,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: fde8ba8986b0702fbadeffa5b584f0e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -301,6 +310,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: 83e769eee07fc231384c812eedbb8224
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 9c7c87712e298256d276eb96e02a57b1
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PreferenceDictionary
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -417,6 +438,12 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: f6633ace6e530c0000f2ac6da4269c52
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PolyShape
+  - hash:
+      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -463,6 +490,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 05655f7deb066a961c41619ac9e98263
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ProBuilderMesh
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -535,6 +568,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: 32f6d1d5a09e5c94c633a32edd3e6836
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: BezierShape
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -669,10 +708,22 @@ ScriptsOnlyBuild:
     className: DebugUpdater
   - hash:
       serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: TriggerBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColliderBehaviour
   - hash:
       serializedVersion: 2
       Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
@@ -795,6 +846,12 @@ ScriptsOnlyBuild:
     className: InputActionAsset
   - hash:
       serializedVersion: 2
+      Hash: d6a8e9bec3160a152b9b2710593d3caa
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColorPalette
+  - hash:
+      serializedVersion: 2
       Hash: 285f5d7c369d870b93f4a2cbcec118e4
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
@@ -873,6 +930,12 @@ ScriptsOnlyBuild:
     className: VolumeComponent
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotator
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -889,6 +952,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 301f4da7cc3b301c161d089f9d22efed
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: Entity
   - hash:
       serializedVersion: 2
       Hash: df819f0bc77c8d047eca1df91bbaa90d
@@ -1209,22 +1278,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: fde8ba8986b0702fbadeffa5b584f0e2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: 83e769eee07fc231384c812eedbb8224
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraController
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Rotator
+    assemblyName: Unity.ProGrids.dll
+    namespaceName: UnityEngine.ProGrids
+    className: IgnoreSnap
   platform: 19
   scenePathNames:
   - Assets/Scenes/MiniGame.unity
