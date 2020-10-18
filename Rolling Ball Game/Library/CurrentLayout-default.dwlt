@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 14
+  controlID: 148
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 15
+  controlID: 90
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 16
+  controlID: 91
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 1312
     height: 716
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -343,20 +343,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Template
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Template
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\micha\Rolling Ball Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 62480000
-    m_LastClickedID: 18530
+    m_SelectedIDs: 36480000
+    m_LastClickedID: 18486
     m_ExpandedIDs: 00000000264800002848000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -509,7 +509,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 96e2ffff12e3ffff78e4ffffd2e6ffff7ee7ffffe0e8ffff5afbffff78450000
+      m_ExpandedIDs: fcfefeffa8fffeff0a01ffff32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 10, z: -10}
+    m_Target: {x: -0.29123884, y: -5.45671, z: 4.32386}
     speed: 2
-    m_Value: {x: 0, y: 10, z: -10}
+    m_Value: {x: -0.29123884, y: -5.45671, z: 4.32386}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -618,13 +618,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.36376563, y: 0.004482597, z: -0.0017496797, w: 0.9314829}
+    m_Target: {x: 0.34413, y: 0.0017030439, z: -0.00062093476, w: 0.93892694}
     speed: 2
-    m_Value: {x: 0.36376402, y: 0.0044825776, z: -0.001749672, w: 0.9314788}
+    m_Value: {x: 0.34412786, y: 0.0017030333, z: -0.0006209309, w: 0.9389211}
   m_Size:
-    m_Target: 6.6635013
+    m_Target: 12.247578
     speed: 2
-    m_Value: 6.6635013
+    m_Value: 12.247578
   m_Ortho:
     m_Target: 0
     speed: 2
