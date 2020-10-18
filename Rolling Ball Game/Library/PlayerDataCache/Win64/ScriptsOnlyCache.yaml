@@ -1,8 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - CameraController
+    - KillZone
     - PlayerController
+    - Readme
     - Rotator
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
@@ -110,8 +114,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11996}
-    - Class: 114
       Script: {instanceID: 11998}
     - Class: 114
       Script: {instanceID: 12000}
@@ -124,95 +126,99 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12008}
     - Class: 114
-      Script: {instanceID: 12072}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12202}
+      Script: {instanceID: 12076}
     - Class: 114
-      Script: {instanceID: 12228}
+      Script: {instanceID: 12208}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 12234}
     - Class: 114
-      Script: {instanceID: 12394}
+      Script: {instanceID: 12364}
     - Class: 114
-      Script: {instanceID: 12604}
+      Script: {instanceID: 12402}
     - Class: 114
-      Script: {instanceID: 12668}
+      Script: {instanceID: 12620}
     - Class: 114
-      Script: {instanceID: 12898}
+      Script: {instanceID: 12684}
     - Class: 114
-      Script: {instanceID: 13302}
+      Script: {instanceID: 12774}
     - Class: 114
-      Script: {instanceID: 13358}
+      Script: {instanceID: 12918}
     - Class: 114
-      Script: {instanceID: 13438}
+      Script: {instanceID: 13322}
     - Class: 114
-      Script: {instanceID: 13454}
+      Script: {instanceID: 13378}
     - Class: 114
-      Script: {instanceID: 13622}
+      Script: {instanceID: 13458}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 13474}
     - Class: 114
-      Script: {instanceID: 13778}
+      Script: {instanceID: 13642}
     - Class: 114
-      Script: {instanceID: 13840}
+      Script: {instanceID: 13736}
     - Class: 114
-      Script: {instanceID: 14066}
+      Script: {instanceID: 13804}
     - Class: 114
-      Script: {instanceID: 14136}
+      Script: {instanceID: 13866}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 14094}
     - Class: 114
-      Script: {instanceID: 14366}
+      Script: {instanceID: 14166}
     - Class: 114
-      Script: {instanceID: 14748}
+      Script: {instanceID: 14246}
     - Class: 114
-      Script: {instanceID: 14780}
+      Script: {instanceID: 14400}
     - Class: 114
-      Script: {instanceID: 15054}
+      Script: {instanceID: 14790}
     - Class: 114
-      Script: {instanceID: 15192}
+      Script: {instanceID: 14822}
     - Class: 114
-      Script: {instanceID: 15274}
+      Script: {instanceID: 15100}
     - Class: 114
-      Script: {instanceID: 15280}
+      Script: {instanceID: 15242}
     - Class: 114
-      Script: {instanceID: 15298}
+      Script: {instanceID: 15324}
     - Class: 114
-      Script: {instanceID: 15310}
+      Script: {instanceID: 15330}
     - Class: 114
-      Script: {instanceID: 15426}
+      Script: {instanceID: 15348}
     - Class: 114
-      Script: {instanceID: 15460}
+      Script: {instanceID: 15360}
     - Class: 114
-      Script: {instanceID: 15502}
+      Script: {instanceID: 15476}
     - Class: 114
-      Script: {instanceID: 15512}
+      Script: {instanceID: 15510}
     - Class: 114
-      Script: {instanceID: 15714}
+      Script: {instanceID: 15552}
     - Class: 114
-      Script: {instanceID: 15792}
+      Script: {instanceID: 15562}
     - Class: 114
-      Script: {instanceID: 15920}
+      Script: {instanceID: 15766}
     - Class: 114
-      Script: {instanceID: 16014}
+      Script: {instanceID: 15844}
     - Class: 114
-      Script: {instanceID: 16340}
+      Script: {instanceID: 15976}
     - Class: 114
-      Script: {instanceID: 16396}
+      Script: {instanceID: 16070}
     - Class: 114
-      Script: {instanceID: 16574}
+      Script: {instanceID: 16398}
     - Class: 114
-      Script: {instanceID: 16630}
+      Script: {instanceID: 16456}
     - Class: 114
-      Script: {instanceID: 16884}
+      Script: {instanceID: 16634}
     - Class: 114
-      Script: {instanceID: 16890}
+      Script: {instanceID: 16690}
     - Class: 114
-      Script: {instanceID: 16970}
+      Script: {instanceID: 16944}
     - Class: 114
-      Script: {instanceID: 17140}
+      Script: {instanceID: 16950}
     - Class: 114
-      Script: {instanceID: 17148}
+      Script: {instanceID: 17030}
+    - Class: 114
+      Script: {instanceID: 17202}
+    - Class: 114
+      Script: {instanceID: 17210}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -448,6 +454,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KillZone
   - hash:
       serializedVersion: 2
       Hash: 54d8f12780f7f6df9b0603e66c9a5b3b
@@ -748,6 +760,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.ProGrids.dll
+    namespaceName: UnityEngine.ProGrids
+    className: IgnoreSnap
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1276,12 +1294,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.ProGrids.dll
-    namespaceName: UnityEngine.ProGrids
-    className: IgnoreSnap
   platform: 19
   scenePathNames:
   - Assets/Scenes/MiniGame.unity
