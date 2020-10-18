@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using System.Diagnostics;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,12 +15,16 @@ public class PlayerController : MonoBehaviour
     private int count;
     private float movementX;
     private float movementY;
+    private float movementZ;
+    private bool onGround;
+    private float jumpTime;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         count = 0;
+        movementZ = 0.0f;
 
         SetCountText();
         winTextObject.SetActive(false);
@@ -33,6 +38,16 @@ public class PlayerController : MonoBehaviour
         movementY = movementVector.y;
     }
 
+    private void OnJump()
+    {
+        if (onGround)
+        {
+            onGround = false;
+            movementZ = 2;
+            jumpTime = .5f;
+        }
+    }
+
     private void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
@@ -44,9 +59,26 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+        if(jumpTime > 0)
+        {
+            jumpTime -= Time.deltaTime;
+        }
+        else
+        {
+            movementZ = -2;
+        }
+
+        Vector3 movement = new Vector3(movementX, movementZ, movementY);
 
         rb.AddForce(movement * speed);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            onGround = true;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
