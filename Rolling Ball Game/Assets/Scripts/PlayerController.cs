@@ -58,12 +58,6 @@ public class PlayerController : MonoBehaviour
         if (count >= 12)
         {
             winTextObject.SetActive(true);
-            winTimer += Time.deltaTime;
-
-            if( winTimer >= 1f)
-            {
-                Application.Quit();
-            }
         }
     }
 
@@ -76,6 +70,17 @@ public class PlayerController : MonoBehaviour
         else
         {
             movementZ = -2;
+        }
+
+        if (winTextObject.activeSelf)
+        {
+            winTimer += Time.deltaTime;
+
+            if (winTimer >= 1f)
+            {
+                UnityEngine.Debug.Log("Reached WinTimer");
+                Application.Quit();
+            }
         }
 
         Vector3 movement = new Vector3(movementX, movementZ, movementY);

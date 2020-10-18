@@ -1,12 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - CameraController
     - KillZone
     - PlayerController
-    - Readme
     - Rotator
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
