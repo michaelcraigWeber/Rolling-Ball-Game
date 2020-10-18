@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 using System.Diagnostics;
+using System.Runtime.Hosting;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
 
+    private Material playerColor;
     private Rigidbody rb;
     private int count;
     private float movementX;
@@ -18,11 +20,13 @@ public class PlayerController : MonoBehaviour
     private float movementZ;
     private bool onGround;
     private float jumpTime;
+    private float winTimer;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        playerColor = GetComponent<Renderer>().material;
         count = 0;
         movementZ = 0.0f;
 
@@ -54,6 +58,12 @@ public class PlayerController : MonoBehaviour
         if (count >= 12)
         {
             winTextObject.SetActive(true);
+            winTimer += Time.deltaTime;
+
+            if( winTimer >= 1f)
+            {
+                Application.Quit();
+            }
         }
     }
 
@@ -88,6 +98,8 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             count++; // increase score
             SetCountText();
+
+            playerColor.color = other.gameObject.GetComponent<Renderer>().material.color;
         }
     }
 }
